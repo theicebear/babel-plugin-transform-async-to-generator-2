@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-transform-async-to-generator-2",
   "version": "0.0.1",
-  "description": "A fork of `babel-plugin-transform-async-to-generator`, with a little difference that this plugin keeps the original parameter names of an async function.",
+  "description": "A fork of babel-plugin-transform-async-to-generator, with a little difference that this plugin keeps the original parameter names of an async function.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/theicebear/babel-plugin-transform-async-to-generator-2.git"
   },
   "author": "theicebear",
   "license": "MIT",
