@@ -1,0 +1,29 @@
+{
+  "name": "babel-plugin-transform-async-to-generator-2",
+  "version": "0.0.1",
+  "description": "A fork of `babel-plugin-transform-async-to-generator`, with a little difference that this plugin keeps the original parameter names of an async function.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "theicebear",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.2",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-helper-function-name": "^6.6.0",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-template": "^6.7.0",
+    "babel-types": "^6.7.2"
+  }
+}
