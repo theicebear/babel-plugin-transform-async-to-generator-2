@@ -1,4 +1,6 @@
-# babel-plugin-transform-async-to-generator
+[![Build Status](https://travis-ci.org/theicebear/babel-plugin-transform-async-to-generator-2.svg?branch=master)](https://travis-ci.org/theicebear/babel-plugin-transform-async-to-generator-2)
+
+# babel-plugin-transform-async-to-generator-2
 
 A fork of `babel-plugin-transform-async-to-generator`, with a little difference that this plugin keeps the original parameter names of an async function.
 
